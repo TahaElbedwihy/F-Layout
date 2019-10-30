@@ -103,11 +103,35 @@ textarea {
   border: black thin;
 }
 
- img.sneaker_picture {
-   width: 450px;
-   height: 300px;
- }
+img.sneaker_picture {
+  width: 450px;
+  height: 300px;
+  float: left;
+}
 
+#main_menu li{
+  margin: 10px;
+  display: inline;
+  font-size: 30px;
+  float: right;
+}
+
+#picture{
+  picture: 367px;
+}
+#content{
+  float: right;
+  padding: 15px;
+  font-size: 30px;
+}
+
+#footer{
+  float:right;
+}
+#main_photos{
+  padding: 10px;
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
