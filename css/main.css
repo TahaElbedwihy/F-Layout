@@ -107,6 +107,7 @@ img.sneaker_picture {
   width: 450px;
   height: 300px;
   float: left;
+  padding-left: 50px;
 }
 
 #main_menu li{
@@ -114,24 +115,29 @@ img.sneaker_picture {
   display: inline;
   font-size: 30px;
   float: right;
+  display: inline;
+}
+#main_menu menu{
+  margin: 0px;
+  padding: 0px;
 }
 
-#picture{
-  picture: 367px;
-}
 #content{
   float: right;
-  padding: 15px;
-  font-size: 30px;
+  font-size: 40px;
+  padding-left: 50px;
 }
-
 #footer{
   float:right;
 }
 #main_photos{
   padding: 10px;
-
 }
+#top{
+  height:120px;
+  line-height:120px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
